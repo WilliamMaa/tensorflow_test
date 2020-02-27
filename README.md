@@ -8,3 +8,4 @@
    2. `illegal`: 1, the player did something wrong last turn and need to redo it, the dealer will not send anything after this
    3. `deal`: 2, the dealer deals a new card to the table, the dealer will send the new cards to the players in the next message
    4. `end`: 4/5, the game is over, the dealer decides who wins. 4 indicates win, 5 indicates lose
+-  The card message contains the cards, it should at most have 20 bytes because we need to send the two players' hand at the end
